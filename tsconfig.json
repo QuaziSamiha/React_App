@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"jsx": "react-jsx", // Enables new JSX transform in TypeScript
+		"module": "esnext", // Ensures correct module resolution
+		"moduleResolution": "node",
+		"target": "esnext",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true
+	},
+	"include": ["src"]
+}
