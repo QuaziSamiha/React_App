@@ -1,20 +1,18 @@
-# React + Vite
+If you're using **Yarn**, you can install the latest version of React (currently **React 19.1.0**) with the following command:
 
-# Installation Commands
+```bash
+yarn add react@latest react-dom@latest
+```
 
-- **React Tailwind with vite** : (https://tailwindcss.com/)
-- npm create vite@latest my-project -- --template react
-- cd my-project
-- npm install -D tailwindcss postcss autoprefixer
-- npx tailwindcss init -p
+This will:
 
-- **Typescript** : (https://www.typescriptlang.org/download/)
-- npm install typescript --save-dev
+- Update both `react` and `react-dom` to their latest stable versions.
+- Ensure your project is using React 19.1.0 (as of May 2025).
 
-- **React Redux Toolkit** : (https://redux.js.org/introduction/installation)
-- npm install @reduxjs/toolkit
-- npm install react-redux
+### 🔧 Update TypeScript types
 
-- **React Router Dom v6** : (https://reactrouter.com/en/main/start/tutorial)
-- npm install react-router-dom
-# React_App
+```bash
+yarn add -D @types/react @types/react-dom
+```
+
+Let me know if you're upgrading from React 18 and need help with migration steps (especially if using Server Components or Actions).
