@@ -182,3 +182,14 @@ TanStack Query eliminates **boilerplate**, **improves performance**, and **simpl
 ```bash
 npm install @tanstack/react-query
 ```
+
+## To run docker file
+
+```bash
+docker build .
+```
+
+```bash
+docker run -p 3000:80 sha256:5d87e13224f1e0d6b40a8e1ba600f92e247dd04709dbd1daab472b99d122ea6f
+``` 
+
